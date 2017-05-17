@@ -4,18 +4,20 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">   
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A clean, responsive theme for static documentation websites that are generated with MkDocs"> 
+    <meta name="author" content="Scott Emmons"> 
     <link rel="shortcut icon" href="../img/favicon.ico">
 
-    <title>Elements - Cinder</title>
+    <title>Specimen - Cindercone</title>
 
-    <link href="../css/bootstrap-custom.css" rel="stylesheet">
-    <link href="../css/font-awesome-4.0.3.css" rel="stylesheet">
-    <link rel="stylesheet" href="//cdn.jsdelivr.net/font-hack/2.010/css/hack.min.css">
+    <link href="../css/bootstrap-custom.min.css" rel="stylesheet">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/font-hack/2.018/css/hack.min.css">
     <link href='//fonts.googleapis.com/css?family=PT+Sans:400,400italic,700,700italic&subset=latin-ext,latin' rel='stylesheet' type='text/css'>
-    <link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,400,300,700&subset=latin-ext,latin' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,400,300,600,700&subset=latin-ext,latin' rel='stylesheet' type='text/css'>
     <link href="../css/base.css" rel="stylesheet">
-    <link href="../css/hack.css" rel="stylesheet">
+    <link href="../css/cindercone.css" rel="stylesheet">
     <link rel="stylesheet" href="../css/highlight.css">
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -54,7 +56,7 @@
             
 
             <!-- Main title -->
-            <a class="navbar-brand" href="..">Cinder</a>
+            <a class="navbar-brand" href="..">Cindercone</a>
         </div>
 
         <!-- Expanded navigation -->
@@ -71,7 +73,7 @@
                 
                 
                     <li class="active">
-                        <a href="./">Elements</a>
+                        <a href="./">Specimen</a>
                     </li>
                 
                 
@@ -85,17 +87,15 @@
                     </a>
                 </li>
                 
-                    <li >
-                        <a rel="next" href="..">
-                            <i class="fa fa-arrow-left"></i> Previous
-                        </a>
-                    </li>
-                    <li class="disabled">
-                        <a rel="prev" >
-                            Next <i class="fa fa-arrow-right"></i>
-                        </a>
-                    </li>
                 
+                    <li>
+                        <a href="https://github.com/scotte/cindercone">
+                            
+                                <i class="fa fa-github"></i>
+                            
+                            GitHub
+                        </a>
+                    </li>
                 
             </ul>
         </div>
@@ -107,60 +107,26 @@
         <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
     
-        <li class="main active"><a href="#typography">Typography</a></li>
         
-            <li><a href="#typefaces">Typefaces</a></li>
-        
-            <li><a href="#body-copy">Body Copy</a></li>
-        
-            <li><a href="#lead-body-copy">Lead Body Copy</a></li>
-        
-            <li><a href="#headings">Headings</a></li>
-        
-            <li><a href="#blockquotes">Blockquotes</a></li>
-        
-            <li><a href="#lists">Lists</a></li>
-        
-            <li><a href="#horizontal-description-lists">Horizontal Description Lists</a></li>
-        
-            <li><a href="#contextual-colors">Contextual Colors</a></li>
+            <li class="first-level "><a href="..">Home</a></li>
         
     
-        <li class="main "><a href="#code">Code</a></li>
         
-            <li><a href="#inline-code">Inline Code</a></li>
-        
-    
-        <li class="main "><a href="#tables">Tables</a></li>
-        
-            <li><a href="#striped-table">Striped Table</a></li>
-        
-            <li><a href="#bordered-table">Bordered Table</a></li>
-        
-    
-        <li class="main "><a href="#buttons">Buttons</a></li>
-        
-            <li><a href="#default-buttons">Default Buttons</a></li>
-        
-            <li><a href="#styled-buttons">Styled Buttons</a></li>
-        
-            <li><a href="#button-sizes">Button Sizes</a></li>
-        
-            <li><a href="#block-level-buttons">Block Level Buttons</a></li>
+            <li class="first-level active"><a href="./">Specimen</a></li>
         
     
     </ul>
 </div></div>
         <div class="col-md-9" role="main">
 
-<h1>Cinder Theme Elements</h1>
+<h1>Cindercone Theme Specimen</h1>
 
 <h2 id="typography">Typography</h2>
 <h3 id="typefaces">Typefaces</h3>
 <ul>
-<li>Headers: PT Sans</li>
-<li>Body: Open Sans</li>
-<li>Code: Hack</li>
+<li>Headers: <a href="https://www.google.com/fonts/specimen/PT+Sans">PT Sans</a></li>
+<li>Body: <a href="https://www.google.com/fonts/specimen/Open+Sans">Open Sans</a></li>
+<li>Code: <a href="http://sourcefoundry.org/hack/">Hack</a></li>
 </ul>
 <h3 id="body-copy">Body Copy</h3>
 <p>You think water moves fast? You should see ice. <strong>It moves like it has a mind</strong>. Like it knows it killed the world once and got a taste for murder. <em>After the avalanche, it took us a week to climb out</em>. Now, I don't know exactly when we turned on each other, but I know that seven of us survived the slide... and only five made it out.</p>
@@ -370,11 +336,6 @@
         
     </div>
 
-    <footer class="col-md-12 text-center">
-        <hr>
-        <small><p>Documentation built with <a href="http://www.mkdocs.org/">MkDocs</a>.</p></small>
-    </footer>
-
     <script src="../js/jquery-1.10.2.min.js"></script>
     <script src="../js/bootstrap-3.0.3.min.js"></script>
     <script src="../js/highlight.pack.js"></script>
@@ -412,6 +373,16 @@
         </div>
     </div>
 
-    </body>
+</body>
+
+<footer class="text-center">
+    <hr>
+    <p>
+    <small>Cindercone is licensed under the <a href='https://github.com/scotte/cindercone/blob/master/LICENSE.md'>MIT license</a><br></small>
+    
+    <small>Documentation built with <a href="http://www.mkdocs.org/">MkDocs</a>.</p></small>
+</footer>
 
 </html>
+
+
