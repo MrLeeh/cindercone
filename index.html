@@ -291,12 +291,14 @@ pages:
 <h4 id="edit-links">Edit Links</h4>
 <p>Edit links require a bit more configuration. In addition to the <strong>repo_url</strong>, an
 <strong>edit_url</strong>, is appended, along with a path to the page's filename. By default,
-this is <strong>src/default/docs</strong>, but can be changed.</p>
-<p>Cindercone requires enabling the <strong>edit_repo</strong> flag in order to enable edit
-links.</p>
+this is <strong>edit/master/docs</strong> for github or <strong>src/default/docs</strong> for bitbucket,
+but can be changed.</p>
+<p>Cindercone requires enabling the <strong>edit_repo</strong> flag in <strong>extra</strong> in order to
+enable edit links.</p>
 <pre><code>repo_url: https://github.com/scotte/cindercone
 edit_uri: edit/docs
-edit_repo: True
+extra:
+    edit_repo: True
 </code></pre>
 
 <h3 id="license-declaration-and-link">License Declaration and Link</h3>
@@ -376,5 +378,5 @@ available <a href="https://github.com/scotte/cindercone/blob/master/LICENSE.md">
 
 <!--
 MkDocs version : 0.16.3
-Build Date UTC : 2017-05-18 23:36:18
+Build Date UTC : 2017-05-19 00:11:03
 -->
